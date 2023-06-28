@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:  sans-serif;
+}
+
+.main-cont{
+    width: 100vw;
+    height: 100vh;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 28%;
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    height: 28%;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.cno{
+    font-size: 13px;
+}
+
+.top-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.lm-add-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+
+.lm{
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.jf{
+    font-size: 13px;
+}
+
+.app-cno-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price,.lm,.status{
+    font-weight: bold;
+}
+
+.hr{
+    width: 100%;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.app-cno-cont span{
+    margin-bottom: 5px;
+}
+
+.price-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.approved{
+    background-color: blue;
+    padding: 8px;
+    border-radius: 4px;
+    color: white
+
+}
+
+.pending{
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 4px;
+    color: black;
+}
+
+.cancelled{
+    background-color: red;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+
+}
+
+.completed{
+    background-color: green;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    .card{
+        width: 95%;
+        padding-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 950px) {
+    .card{
+        width: 45%;
+        padding-bottom: 10px;
+    }
+
+    .lm{
+        font-size: 15px;
+    }
+
+    .add{
+        font-size: 12px;
+    }
+
+    .date{
+        font-size: 12px;
+    }
+
+    .jf{
+        font-size: 12px;
+    }
+
+}
+
+
+@media screen and (min-width: 950px) and (max-width: 1200px) {
+    .card{
+        width: 28%;
+        padding-bottom: 10px;
+    }
+
+    .lm{
+        font-size: 14px;
+    }
+
+    .add{
+        font-size: 10px;
+    }
+
+    .date{
+        font-size: 10px;
+    }
+
+    .jf{
+        font-size: 12px;
+    }
+
+}
